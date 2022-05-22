@@ -10,15 +10,95 @@
     <div>
         <h1>Youth is short, make it worth</h1>
     </div>
-    <table width="100" border="10">
+    <table width="500">
+        <!-- first row -->
         <tr>
             <td>Gender:</td>
             <td>
-                <input type="radio">Male
-                <input type="radio">Female
+                <input type="radio" name="gender" id="male"><label for="male">Male</label> 
+                <input type="radio" name="gender" id="female"><label for="female">Female</label> 
             </td>
-            <td>Age: </td>
         </tr>
+
+        <!-- second row -->
+        <tr>
+            <td>Birth: </td>
+            <td>
+                <select>
+                    <option>-- Please Select Year --</option>
+                    <option>2022</option>
+                    <option>2021</option>
+                    <option>2020</option>
+                </select>
+
+                <select>
+                    <option>-- Please Select Month --</option>
+                    <option>12</option>
+                    <option>11</option>
+                    <option>10</option>
+                </select>
+            </td>
+        </tr>
+
+        <!-- third row -->
+        <tr>
+            <td>Location:</td>
+            <td>
+                <input type="text" value="Beijing">
+            </td>
+        </tr>
+
+        <!-- fourth row -->
+        <tr>
+            <td>Status:</td>
+            <td>
+                <input type="radio" id="married" name="status" checked="checked"><label>Married</label>
+                <input type="radio" id="single" name="status"><label>Single</label>
+            </td>
+        </tr>
+
+        <!-- fifth row -->
+        <tr>
+            <td>Preference: </td>
+            <td>
+                <input type="checkbox" name="preference"><label for="juicy">Juicy</label>
+                <input type="checkbox" name="preference"><label for="juicy">Sweet</label>
+                <input type="checkbox" name="preference"><label for="juicy">Hot</label>
+            </td>
+        </tr>
+
+        <!-- sixth row -->
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Submit"></td>
+        </tr>
+
+
+        <!-- seventh row -->
+        <tr>
+            <td></td>
+            <td>
+                <a href="#">Log In
+            </td>
+        </tr>
+
+        <!-- eighth row -->
+        <tr>
+            <td></td>
+            <td>
+                <ul>
+                    <li>Tell the truth</li>
+                    <li>Tell the truth</li>
+                    <li>Tell the truth</li>
+                </ul>
+                
+            </td>
+        </tr>
+
+
+
+
+
         
 
     </table>
