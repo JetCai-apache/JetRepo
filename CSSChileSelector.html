@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        ol li a {
+            color: pink;
+        }
+
+        .nav li a {
+            color: darkmagenta;
+        }
+
+        .child>a {
+            color: greenyellow;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <ol>
+        <li ><a a href="#">im ol child</a></li>
+        <li>im ol child</li>
+        <li>im ol child</li>
+        <li>im ol child</li>
+    </ol>
+
+    <ol class="nav">
+        <li ><a a href="#">im ol grandchild</a></li>
+        <li>im ol child</li>
+        <li>im ol child</li>
+        <li>im ol child</li>
+    </ol>
+
+
+    <div>
+        <div class="child">
+            <a href="#">this is child</a>
+            <p>
+                <a href="#">this is another child</a>
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
